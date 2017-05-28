@@ -1,7 +1,7 @@
 import CoreFoundation
 import Foundation
 
-internal extension Data {
+extension Data {
     static var zero: Data {
         return Data(bytes: [0x00])
     }
